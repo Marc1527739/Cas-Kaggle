@@ -3,7 +3,7 @@
 ### DATASET: League of Legends
 ### URL: [[kaggle](http://....)](https://www.kaggle.com/datasets/bobbyscience/league-of-legends-diamond-ranked-games-10-min)
 
-## Tota la informació es troba explicada de forma més extensa dintre del repositori models en el document Anàlisi_Cas_Kaggle.pdf
+## Tota la informació del treball es troba explicada de forma més extensa dintre del repositori models en el document Anàlisi_Cas_Kaggle.pdf
 
 ## Resum
 La base de dades (dataset) està formada per 9879 files i 4 columnes.
@@ -50,7 +50,7 @@ La taula extensa amb tots els experiments es troba en el document mencionat al i
 Taula resum amb els millors resultats per a cada model:
 
 | Model | Hiperparametres | Base de dades | Conjunt d'aprenentatge | Precisió (%) | Temps (segons) |
-| -- | -- | -- | -- |
+| -- | -- | -- | -- |--| -- |
 | Regressió logística | Per defecte | Normalitzada | 60% train 40% test | 72,89 | 0.0229 | 
 | Regressió lineal | Per defecte | Normalitzada | 60% train 40% test | 27,42 | 0.0089 |
 | SVM | kernel: rbf | Original | 60% train 40% test | 72,79 | 2.1056 |
