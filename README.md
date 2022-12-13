@@ -57,8 +57,8 @@ Taula resum amb els millors resultats per a cada model:
 | KNN | Per defecte | Normalitzada | 60% train 40% test | 69,14 | 0.6634 |
 | Random Forest | Per defecte | Normalitzada | 60% train 40% test | 71,62 | 0.9612 |
 | K-fold | n_splits (K) = 5 | Normalitzada | 60% test 20% train 20% val | 74,94 | 0.3059 |
-| GridSearchCV | Combinació: K-fold = 5 i Regressió logística per defecte | Normalitzada | 60% test 20% train 20% val | 73,09 | Varies probes (no es calcula el temps)|
-| RandomizedSearchCV | Combinació: K-fold = 5 i Regressió logística per defecte | Normalitzada | 60% test 20% train 20% val | 73,09 | Varies probes (no es calcula el temps)|
+| GridSearchCV | Combinació: K-fold = 5 i Regressió logística per defecte | Normalitzada | 60% test 20% train 20% val | 73,09 | Varies proves (no es calcula el temps)|
+| RandomizedSearchCV | Combinació: K-fold = 5 i Regressió logística per defecte | Normalitzada | 60% test 20% train 20% val | 73,09 | Varies proves (no es calcula el temps)|
 
 ## Demo
 Per tal de fer una prova, es pot fer servir amb la següent comanda
