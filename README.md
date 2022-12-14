@@ -61,8 +61,13 @@ Taula resum amb els millors resultats per a cada model:
 | RandomizedSearchCV | Combinació: K-fold = 5 i Regressió logística per defecte | Normalitzada | 60% test 20% train 20% val | 73,09 | Varies proves (no es calcula el temps)|
 
 ## Demo
-Per tal de fer una prova, es pot fer servir amb la següent comanda
-``` python3 demo/demo.py --input here ```
+Tot i que tot el desenvolupament s'ha realizat al notebook Cas_Kaggle, trobem tres fitxers amb els quals podem fer alguna prova.
+
+Tenim tres scripts python que podem cambiar per fer proves. El script generate_features.py es un script que neteja la base de dades (la càrrega) i la prepara per posteriors probes, el script train_model.py realitza les millors prediccions per a cada model utilitzant les bases de dades creades al script generate_features.py i el script score_model.py es un script que ens proporciona un exemple de com fer noves predccions utilitzant models ja entrenats.
+
+Variant qualsevol dels tres scripts podriem aconseguir realitzar tot tipus de proba.
+
+Inicialment, poder fer les probes predeterminades ejecutant qualsevol dels tres script, ja sigui per la terminal de comandes, o utilitzant plataformes que ens permetin ejecutar script en python. 
 
 ## Conclusions
 El millor model que s'ha aconseguit ha estat el model d'aplicar validació creuada, la técnica K-fold amb el conjunt d’aprenentatge amb 60% test, 20% train i 20% val (K=4), una precisió del  74,94% i un temps de 0.3059. 
